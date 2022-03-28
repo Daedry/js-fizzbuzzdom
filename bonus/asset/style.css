@@ -32,6 +32,18 @@ body {
   margin: 0.5rem;
 }
 
+#cells.fizz{
+  background-color: brown;
+}
+
+#cells.fizz-buzz{
+  background-color: rgb(42, 106, 165);
+}
+
+#cells.buzz{
+  background-color: rgb(142, 165, 42);
+}
+
 ::-webkit-scrollbar {
   width: 4px;
   height: 4px;

@@ -11,19 +11,19 @@ for (var i = 1; i <= 100; i++) {
   if (i % 3 == 0 && i % 5 == 0) {
     console.log("FizzBuzz");
     document.getElementById("grid").innerHTML += `
-    <div id="cells">
+    <div id="cells" class="fizz-buzz">
            FizzBuzz        
     </div>`;
   } else if (i % 5 == 0) {
     console.log("Buzz");
     document.getElementById("grid").innerHTML += `
-    <div id="cells">
+    <div id="cells" class="buzz">
       Buzz        
     </div>`;
   } else if (i % 3 == 0) {
     console.log("Fizz");
     document.getElementById("grid").innerHTML += `
-    <div id="cells">
+    <div id="cells" class="fizz">
       Fizz        
     </div>`;
   } else {
