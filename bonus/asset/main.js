@@ -8,33 +8,29 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 */
 
 for (var i = 1; i <= 100; i++) {
-
   if (i % 3 == 0 && i % 5 == 0) {
     console.log("FizzBuzz");
-    document.getElementById('grid').innerHTML += `
-    <div class="cell">
-    FizzBuzz
+    document.getElementById("grid").innerHTML += `
+    <div id="cells">
+           FizzBuzz        
     </div>`;
-  
   } else if (i % 5 == 0) {
     console.log("Buzz");
-    document.getElementById('grid').innerHTML += `
-    <div class="cell">
-    Buzz
+    document.getElementById("grid").innerHTML += `
+    <div id="cells">
+      Buzz        
     </div>`;
-  
   } else if (i % 3 == 0) {
     console.log("Fizz");
-    document.getElementById('grid').innerHTML += `
-    <div class="cell">
-    Fizz
+    document.getElementById("grid").innerHTML += `
+    <div id="cells">
+      Fizz        
     </div>`;
-  
   } else {
     console.log(i);
-    document.getElementById('grid').innerHTML += `
-    <div class="cell">
-    ${i}
+    document.getElementById("grid").innerHTML += `
+    <div id="cells">
+      ${i}        
     </div>`;
   }
 }
