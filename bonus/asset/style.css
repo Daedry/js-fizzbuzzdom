@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(10, 59, 109);
+}
+
+.container{
+    width: 82vw;
+    height: 80vh;
+    margin: 10vh auto;
+    overflow-y: scroll;    
+    background-color: rgb(21, 79, 138);
+}
+
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cell{
+
+    width: 80px;
+    height: 80px;
+    background-color: rgb(76, 150, 76);
+    border: px solid peru;
+    margin: 0.5rem;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    position: absolute;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    box-shadow: inset 0px 4px 14px rgb(146 146 146 / 31%);
+    position: absolute;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    position: absolute;
+  }
+  
+  ::-webkit-scrollbar-thumb:active {
+    background: #666;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #666;
+  }
+  
